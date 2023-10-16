@@ -6,7 +6,7 @@ const Footer = () => {
     <div className={styles.Footer}>
       <div className={styles.FooterConteudo}>
         <div className={styles.FooterCaixa}>
-          <img src="./img/logo.png" alt="" />
+          <img src="./img/logo.svg" alt="" />
           <h3>Endereço para retirada:</h3>
           <p>
             Rua: Teodoro Soares, Parque das Garças, São Bernardo do Campo, SP

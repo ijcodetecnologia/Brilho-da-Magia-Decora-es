@@ -7,7 +7,7 @@ import Kit from "@/sections/kit/Kit";
 import Div from "@/sections/div/Div";
 import Redes from "@/sections/redes/Redes";
 import Map from "@/sections/map/Map";
-import Parceiros from "@/sections/parceiros/Parceiros";
+// import Parceiros from "@/sections/parceiros/Parceiros";
 import Footer from "@/sections/footer/Footer";
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
       <Div />
       <Redes />
       <Map />
-      <Parceiros />
+      {/* <Parceiros /> */}
       <Footer />
     </main>
   );

@@ -1,5 +1,5 @@
 .Banner {
-  background-image: url('../../../public/img/banner-.svg');
+  background-image: url('../../../public/img/banner.svg');
   background-size: cover;
   background-attachment: fixed;
   padding: 9% 10% 10%;
@@ -10,7 +10,7 @@
 }
 
 .Banner h1 {
-  color: #EBB1F7;
+  color: #ffffff;
   font-size: 100px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .Banner p {
-  color: #ffffff ;
+  color: #EBB1F7;
   font-size: 30px;
 }
 

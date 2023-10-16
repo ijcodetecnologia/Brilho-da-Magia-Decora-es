@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className={`${styles.Header} container`} id='header'>  
       <div>
-        <img className={styles.ImgHeader} src="./img/logo.png" alt="logotipo" />
+        <img className={styles.ImgHeader} src="./img/logo.svg" alt="logotipo" />
       </div>
 
       <div className={styles.NavHeader}>
