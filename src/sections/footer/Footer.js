@@ -1,9 +1,9 @@
-import React from 'react';
-import styles from '@/sections/footer/footer.module.css';
+import React from "react";
+import styles from "@/sections/footer/footer.module.css";
 
 const Footer = () => {
   return (
-    <div className={`${styles.Footer} container`}>
+    <div className={styles.Footer}>
       <div className={styles.FooterConteudo}>
         <div className={styles.FooterCaixa}>
           <img src="./img/logo.png" alt="" />
@@ -43,7 +43,9 @@ const Footer = () => {
 
       <div className={styles.FooterCopy}>
         <p>
-          Copyright© - Todos os direiros reservados - Desenvolvido por <span></span> <a href="https://ijcodetecnologia.github.io/IJCode/"> IJCode</a> 
+          Copyright© - Todos os direiros reservados - Desenvolvido por{" "}
+          <span></span>{" "}
+          <a href="https://ijcodetecnologia.github.io/IJCode/"> IJCode</a>
         </p>
       </div>
     </div>
