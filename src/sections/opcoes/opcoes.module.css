@@ -1,0 +1,89 @@
+.Opcoes {
+  background-image: url('../../../public/img/fundo2.svg');
+  background-size: cover;
+  display: flex;
+  padding: 5% 5% 5% 5%;
+  gap: 20px;
+}
+
+.OpcoesImg {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  padding: 1%;
+}
+
+.OpcoesImg img {
+  border-radius: 8px;
+}
+
+.OpcoesTexto {
+  padding-top: 1%;
+  padding-left: 10%;
+  width: 100%;
+}
+
+.OpcoesTexto span {
+  color: #8DB0D2;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.OpcoesTexto h2 {
+  color: #EBB1F7;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.OpcoesTexto p {
+  color: #81807f;
+  font-size: 20px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+@media (max-width: 1100px) {
+  .OpcoesTexto h2 {
+    font-size: 45px;
+  }
+  .OpcoesTexto p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .Opcoes {
+    align-items: center;
+  }
+  .OpcoesImg {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 80%;
+  }
+  .OpcoesImg img {
+    width: 80%;
+  }
+  .OpcoesTexto {
+    width: 50%;
+    padding-left: 5%;
+  }
+  .OpcoesTexto h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 750px) {
+  .Opcoes {
+    display: grid;
+  }
+  .OpcoesTexto {
+    width: 100%;
+    text-align: center;
+    padding-left: 0%;
+  }
+  .OpcoesImg {
+    display: none;
+  }
+}

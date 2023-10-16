@@ -1,0 +1,36 @@
+.Nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.Nav a {
+  color: #ffffff; 
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Nav li:hover {
+  color: #EBB1F7; 
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.Nav a:hover {
+  color: #EBB1F7; 
+}
+
+@media only screen and (max-width: 620px) {
+  .Nav{
+    display: none;
+}
+  .mobileMenuIcon {
+    display: grid;
+  }
+  .mobileMenuIcon button {
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+}

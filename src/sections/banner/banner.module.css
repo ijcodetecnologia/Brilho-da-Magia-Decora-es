@@ -1,0 +1,63 @@
+.Banner {
+  background-image: url('../../../public/img/banner-.svg');
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 9% 10% 10%;
+  margin-top: -80px;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 57% 100%, 50% 93%, 50% 93%, 43% 100%, 0 100%); 
+  z-index: 1;
+}
+
+.Banner h1 {
+  color: #EBB1F7;
+  font-size: 100px;
+}
+
+.Banner h2 {
+  font-family: 'Kaushan Script', cursive;
+  color: #8DB0D2;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.Banner p {
+  color: #ffffff ;
+  font-size: 30px;
+}
+
+@media (max-width: 950px) {
+  .Banner h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 700px) {
+  .Banner {
+    padding: 15% 15% 15% 15%;
+  }
+  .Banner h1 {
+    font-size: 60px;
+  }
+  .Banner span {
+    font-size: 40px;
+  }
+  .Banner p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .Banner {
+    padding: 25% 10% 10% 10%;
+  }
+  .Banner h1 {
+    font-size: 55px;
+  }
+  .Banner span {
+    font-size: 30px;
+  }
+  .Banner p {
+    font-size: 20px;
+  }
+}

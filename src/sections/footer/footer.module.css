@@ -1,0 +1,76 @@
+.FooterConteudo {
+  display: flex;
+  justify-content: center;
+  background-image: url('../../../public/img/banner.svg');
+  background-size: cover;
+  padding: 5%;
+  gap: 10%;
+}
+
+.FooterCaixa {
+  width: 300px;
+}
+
+.FooterCaixa img{
+  width: 30%;
+}
+
+.FooterCaixa h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.FooterCaixa p {
+  color: #ffffffcb;
+}
+
+.FooterIcons {
+  display: flex;
+  gap: 5%;
+}
+
+.FooterIcons img {
+  width: 30px;
+}
+
+.FooterIcons li:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+
+.FooterCopy {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  margin-bottom: -20%;
+  padding: 15px;
+}
+
+.FooterCopy a{
+  color: #8DB0D2;
+  font-weight: bold;
+}
+
+.FooterCopy a:hover {
+  display: inline-block;
+  color: #EBB1F7;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+
+@media (max-width: 600px) {
+  .FooterConteudo {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 2%;
+  }
+  .FooterIcons {
+    justify-content: center;
+    padding-bottom: 5%;
+  }
+}
