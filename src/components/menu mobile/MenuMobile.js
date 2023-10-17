@@ -74,18 +74,18 @@ const MenuMobile = () => {
             </Link>
           </li>
 
-          <li>
-            <Link
-              to="parceiros"
-              spy={true}
-              smooth={true}
-              offset={5}
-              duration={600}
-              href=""
-            >
-              Parceiros
-            </Link>
-          </li>
+          // <li>
+          //   <Link
+          //     to="parceiros"
+          //     spy={true}
+          //     smooth={true}
+          //     offset={5}
+          //     duration={600}
+          //     href=""
+          //   >
+          //     Parceiros
+          //   </Link>
+          // </li>
         </ul>
       </nav>
     </div>
