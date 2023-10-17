@@ -1,11 +1,15 @@
-'use client';
-import { Link } from 'react-scroll';
-import React, { useState, useEffect, useRef } from 'react';
-import styles from './MenuMobile.module.css';
+"use client";
+import { Link } from "react-scroll";
+import React, { useState, useEffect, useRef } from "react";
+import styles from "./MenuMobile.module.css";
 
 const MenuMobile = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const menuRef = useRef();
+
+  const handleToggle = () => {
+    setMobileMenu(!mobileMenu);
+  };
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -14,23 +18,21 @@ const MenuMobile = () => {
       }
     };
 
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
 
-    return document.removeEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
   }, []);
 
   return (
-    <div className={styles.containerMobile}>
-      <button
-        className={styles.mobileMenuIcon}
-        onClick={() => setMobileMenu(!mobileMenu)}
-      ></button>
+    <div ref={menuRef} className={styles.containerMobile}>
+      <button className={styles.mobileMenuIcon} onClick={handleToggle}></button>
 
       <nav
         className={`${styles.listMobile}  ${
           mobileMenu ? styles.listMobileActive : styles.listMobile
         }`}
-        ref={menuRef}
       >
         <ul>
           {/* <li className={styles.LiNav}>
