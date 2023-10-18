@@ -1,7 +1,8 @@
 'use client';
 import React from 'react';
 import styles from './nav.module.css';
-import { Link } from 'react-scroll';
+import { Link as LinkScroll } from 'react-scroll';
+import Link from 'next/link';
 
 const Nav = () => {
   return (
@@ -22,19 +23,19 @@ const Nav = () => {
 
         <li>
           <Link
-            to="kits"
+            to=""
             spy={true}
             smooth={true}
             offset={5}
             duration={600}
-            href=""
+            href="/kits"
           >
             Kits
           </Link>
         </li>
 
         <li>
-          <Link
+          <LinkScroll
             to="endereco"
             spy={true}
             smooth={true}
@@ -43,7 +44,7 @@ const Nav = () => {
             href=""
           >
             Endereço
-          </Link>
+          </LinkScroll>
         </li>
       </ul>
     </div>

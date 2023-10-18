@@ -1,14 +1,14 @@
 import React from 'react';
-import styles from './header.module.css'
+import styles from './header.module.css';
 import Nav from '@/components/nav/Nav';
 import Button from '@/components/button/Button';
 import MenuMobile from '@/components/menu mobile/MenuMobile';
 
 const Header = () => {
   return (
-    <div className={`${styles.Header} container`} id='header'>  
-      <div>
-        <img className={styles.ImgHeader} src="./img/logo.svg" alt="logotipo" />
+    <div className={`${styles.Header} container`} id="header">
+      <div className={styles.ImgHeader} >
+        <a href="/layout"><img src="./img/logo.svg" alt="logotipo" /></a>
       </div>
 
       <div className={styles.NavHeader}>
@@ -19,7 +19,7 @@ const Header = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

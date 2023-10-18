@@ -1,0 +1,144 @@
+.KitsCaixa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2%;
+  margin-bottom: 10%;
+}
+
+.KitsTexto {
+  display: grid;
+  padding: 5%;
+}
+
+.KitsTexto1 span {
+  font-size: 1.5rem;
+  color: #fdf2a0;
+}
+
+.KitsTexto2 {
+  display: grid;justify-content: space-between;
+  align-items: center;
+  color: #81807f;
+}
+
+.KitsTexto h2 {
+  font-size: 3rem;
+  color: #EBB1F7;
+}
+
+.KitsTexto p {
+  font-size: 1.1rem;
+  color: #81807f;
+}
+
+.KitsA {
+  display: flex;
+  text-align: center;
+  gap: 2%;
+}
+
+.KitsA a {
+  padding: 2.5%;
+  display: flex;
+  background: #8DB0D2;
+  border-radius: 50%;
+}
+
+.KitsA a:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+
+.KitsTexto button {
+  width: 30%;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 25px 0px;
+  background: #EBB1F7;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.KitsTexto button:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.KitsTexto a {
+  color: #ffffff; 
+}
+
+.KitsImg {
+  width: 100%;
+}
+
+.KitsImg img {
+  width: 20rem;
+  border-radius: 10px;
+  padding-top: 2%;
+}
+
+.KitsImg img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.KitsImg ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2%;
+}
+
+
+@media (max-width: 1400px) {
+  .KitsImg img {
+    width: 15rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  .KitsTexto {
+    gap: 2%;
+  }
+  .KitsTexto2 {
+    gap: 5%;
+  }
+  .KitsImg {
+    display: flex;
+    align-items: center;
+  }
+  .KitsImg img {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .KitsCaixa {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .KitsTexto2 {
+    display: grid;
+    gap: 10%;
+    justify-content: center;
+    justify-items: center;
+  }
+  .KitsA {
+    display: none;
+  }
+  .KitsImg img {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 675px) {
+  .KitsImg img {
+    width: 20rem;
+  }
+}
+
