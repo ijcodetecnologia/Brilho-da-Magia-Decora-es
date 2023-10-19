@@ -31,3 +31,9 @@ span {
 a {
   color: #67819b;
 }
+
+.SessaoProdutos {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}

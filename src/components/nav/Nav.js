@@ -23,14 +23,27 @@ const Nav = () => {
 
         <li>
           <Link
+            to="kits"
+            spy={true}
+            smooth={true}
+            offset={5}
+            duration={600}
+            href=""
+          >
+            Kits
+          </Link>
+        </li>
+
+        <li>
+          <Link
             to=""
             spy={true}
             smooth={true}
             offset={5}
             duration={600}
-            href="/kits"
+            href="/pagekits"
           >
-            Kits
+            TodosKits
           </Link>
         </li>
 

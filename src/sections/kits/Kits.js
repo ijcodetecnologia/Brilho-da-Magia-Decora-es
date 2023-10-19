@@ -3,7 +3,7 @@ import styles from '@/sections/kits/Kits.module.css';
 
 const Kits = () => {
   return (
-    <div className={`${styles.Kits}`}>
+    <div className={`${styles.Kits}`} id='kits'>
       <div className={`${styles.KitsCaixa} container`}>
         <div className={styles.KitsTexto}>
           <div className={styles.KitsTexto1}>

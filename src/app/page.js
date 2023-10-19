@@ -1,7 +1,6 @@
 import styles from "@/app/page.module.css";
 import Banner from "@/sections/banner/Banner";
 import Decoracao from "@/sections/decoracao/Decoracao";
-import Kit from "@/app/kits/page";
 import Div from "@/sections/div/Div";
 import Map from "@/sections/map/Map";
 import Kits from "@/sections/kits/Kits";
@@ -12,7 +11,6 @@ export default function Home() {
     <main className={styles.Page}>
       <Banner />
       <Decoracao />
-      <Kit />
       <Kits />
       <Div />
       <Map />

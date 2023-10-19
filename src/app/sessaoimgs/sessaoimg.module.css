@@ -1,0 +1,24 @@
+.SessaoImgs {
+  display: flex;
+  justify-content: center;
+}
+
+.SessaoImgsCaixa ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0% 5%;
+  padding: 0% 2%;
+  gap: 2%;
+}
+
+.SessaoImgsCaixa li {
+  margin-bottom: 2%;
+}
+
+.SessaoImgsCaixa img {
+  width: 200px;
+  height: 290px;
+  margin-bottom: 2%;
+  border-radius: 10px;
+}
