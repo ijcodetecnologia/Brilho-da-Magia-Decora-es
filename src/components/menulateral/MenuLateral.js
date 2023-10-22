@@ -5,9 +5,8 @@ import styles from '@/components/menulateral/MenuLateral.module.css';
 const MenuLateral = () => {
   return (
     <div className={styles.MenuLateral}>
-      {/* <h3>Kits </h3> */}
       <ul>
-        <li><a href="">Infantil Feminino</a></li>
+        <li><a href="/infantilfeminino"> Infantil Feminino</a></li>
         <li><a href="">Infantil Masculino</a></li>
         <li><a href="">Aniversário</a></li>
         <li><a href="">15 Anos</a></li>

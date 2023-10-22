@@ -8,20 +8,20 @@ const Nav = () => {
   return (
     <div className={styles.Nav}>
       <ul>
-        {/* <li className={styles.LiNav}>
+        <li className={styles.LiNav}>
           <Link
-            to="home"
+            to=""
             spy={true}
             smooth={true}
             offset={50}
             duration={500}
-            href=""
+            href="/"
           >
             Home
           </Link>
-        </li> */}
+        </li>
 
-        <li>
+        {/* <li>
           <Link
             to="kits"
             spy={true}
@@ -32,7 +32,7 @@ const Nav = () => {
           >
             Kits
           </Link>
-        </li>
+        </li> */}
 
         <li>
           <Link
@@ -41,13 +41,13 @@ const Nav = () => {
             smooth={true}
             offset={5}
             duration={600}
-            href="/pagekits"
+            href="/pageitens"
           >
-            TodosKits
+            Kits
           </Link>
         </li>
 
-        <li>
+        {/* <li>
           <LinkScroll
             to="endereco"
             spy={true}
@@ -58,7 +58,7 @@ const Nav = () => {
           >
             Endereço
           </LinkScroll>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

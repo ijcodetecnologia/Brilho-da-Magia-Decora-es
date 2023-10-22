@@ -1,14 +1,11 @@
 .SessaoImgs {
-  display: flex;
-  justify-content: center;
+  display: grid;
 }
 
 .SessaoImgsCaixa ul {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  margin: 0% 5%;
-  padding: 0% 2%;
+  justify-content: center;
   gap: 2%;
 }
 
@@ -21,4 +18,17 @@
   height: 290px;
   margin-bottom: 2%;
   border-radius: 10px;
+}
+
+.PageZoom {
+  display: inline-block;
+}
+
+.Zoomable {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.Zoomable:hover {
+  transform: scale(1.2); /* Aumenta o tamanho da imagem em 20% ao passar o mouse */
 }

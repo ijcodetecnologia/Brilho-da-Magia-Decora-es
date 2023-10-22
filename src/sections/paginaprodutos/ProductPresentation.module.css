@@ -1,0 +1,53 @@
+.productPresentation {
+  display: flex;
+  gap: 20px;
+}
+
+.PgMenu {
+  flex: 1;
+  border-right: 1px solid #ccc;
+  padding-right: 20px;
+}
+
+.PgMenu h2 {
+  font-size: 24px;
+}
+
+.PgMenu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.PgMenu li {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.PgMenu li.active {
+  font-weight: bold;
+}
+
+.products {
+  flex: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product h3 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.active {
+  display: block;
+}
+
+.disable {
+  display: none;
+}

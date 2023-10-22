@@ -19,7 +19,7 @@ const PageKits = () => {
       </div>
 
       <div className="container">
-        <div className='SessaoProdutos'>
+        <div className={styles.SessaoProdutos}>
           <div>
             <MenuLateral />
           </div>

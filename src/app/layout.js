@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Kaushan+Script&family=Nunito:ital,wght@1,200;1,400&display=swap"
           rel="stylesheet"/>
         <link rel="icon" href="./img/favicon.ico" type="image/x-icon"></link>
+        <link rel="stylesheet" type="text/css" href="styles.css"></link>
       </head>
 
       <body>
