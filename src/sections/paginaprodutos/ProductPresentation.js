@@ -1,36 +1,35 @@
 'use client';
-import React from 'react';
-import styles from '@/sections/paginaprodutos/ProductPresentation.module.css';
+import React, { useState } from 'react';
+import styles from './ProductPresentation.module.css';
+import CategoryFilter from '@/components/CategoryFilter/CategoryFilter';
+import ProjectCard from '@/components/ProjectCard/ProjectCard';
 
-function ProductPresentation({ products, selectedCategory }) {
+function ProductPresentation({ products }) {
+  const [selectedCategory, setSelectedCategory] = useState('');
+
+  const categories = [...new Set(products.map((project) => project.category))];
+
+  const filteredproducts = selectedCategory
+    ? products.filter((project) => project.category === selectedCategory)
+    : products;
+
+  const handleCategoryChange = (category) => {
+    setSelectedCategory(category);
+  };
+
   return (
     <div className={styles.productPresentation}>
-      <div className={styles.PgMenu}>
-        <h2>Categorias</h2>
-        <ul>
-          {Array.from(
-            new Set(products.map((product) => product.category)).values(),
-          ).map((category) => (
-            <li
-              key={category}
-              className={category === selectedCategory ? 'active' : 'disable'}
-            >
-              {category}
-            </li>
-          ))}
-        </ul>
+      <div>
+        <CategoryFilter
+          categories={categories}
+          selectedCategory={selectedCategory}
+          onChangeCategory={handleCategoryChange}
+        />
       </div>
-      <div className="products">
-        {products
-          .filter((product) =>
-            selectedCategory ? product.category === selectedCategory : true,
-          )
-          .map((product) => (
-            <div className="product" key={product.id}>
-              <img src={product.image} alt={product.name} />
-              <h3>{product.name}</h3>
-            </div>
-          ))}
+      <div className={styles.productPresentation}>
+        {filteredproducts.map((project, index) => (
+          <ProjectCard key={index} project={project} />
+        ))}
       </div>
     </div>
   );

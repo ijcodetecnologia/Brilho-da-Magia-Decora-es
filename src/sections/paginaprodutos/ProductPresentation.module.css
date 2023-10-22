@@ -43,11 +43,3 @@
   font-size: 18px;
   text-align: center;
 }
-
-.active {
-  display: block;
-}
-
-.disable {
-  display: none;
-}

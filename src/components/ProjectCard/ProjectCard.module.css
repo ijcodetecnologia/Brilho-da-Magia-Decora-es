@@ -1,0 +1,27 @@
+.SessaoImgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2%;
+}
+
+.imgContainer img {
+  width: 200px;
+  height: 290px;
+  margin-bottom: 2%;
+  border-radius: 10px;
+}
+
+.PageZoom {
+  display: inline-block;
+}
+
+.Zoomable {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.Zoomable:hover {
+  transform: scale(1.2); /* Aumenta o tamanho da imagem em 20% ao passar o mouse */
+}
