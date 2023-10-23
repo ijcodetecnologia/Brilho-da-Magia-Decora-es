@@ -81,37 +81,37 @@
     "image": "./img/kits/infantil maculino/1.jpg"
   },
   {
-    "id": 2,
+    "id": 14,
     "name": "Infantil Masculino",
     "category": "Infantil Masculino",
     "image": "./img/kits/infantil maculino/2.jpg"
   },
   {
-    "id": 2,
+    "id": 15,
     "name": "Infantil Masculino",
     "category": "Infantil Masculino",
     "image": "./img/kits/infantil maculino/3.jpg"
   },
   {
-    "id": 2,
+    "id": 16,
     "name": "Infantil Masculino",
     "category": "Infantil Masculino",
     "image": "./img/kits/infantil maculino/4.jpg"
   },
   {
-    "id": 2,
+    "id": 17,
     "name": "Infantil Masculino",
     "category": "Infantil Masculino",
     "image": "./img/kits/infantil maculino/5.jpg"
   },
   {
-    "id": 2,
+    "id": 18,
     "name": "Infantil Masculino",
     "category": "Infantil Masculino",
     "image": "./img/kits/infantil maculino/6.jpg"
   },
   {
-    "id": 2,
+    "id": 19,
     "name": "Infantil Masculino",
     "category": "Infantil Masculino",
     "image": "./img/kits/infantil maculino/7.jpg"
@@ -119,79 +119,67 @@
 
 
   {
-    "id": 2,
+    "id": 20,
     "name": "Aniversário",
     "category": "Aniversário",
     "image": "./img/kits/Aniversarios/01.jpg"
   },
   {
-    "id": 2,
-    "name": "Aniversário",
-    "category": "Aniversário",
-    "image": "./img/kits/Aniversarios/01.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Aniversário",
-    "category": "Aniversário",
-    "image": "./img/kits/Aniversarios/01.jpg"
-  },
-  {
-    "id": 2,
+    "id": 21,
     "name": "Aniversário",
     "category": "Aniversário",
     "image": "./img/kits/Aniversarios/2.jpg"
   },
   {
-    "id": 2,
+    "id": 22,
     "name": "Aniversário",
     "category": "Aniversário",
     "image": "./img/kits/Aniversarios/3.jpg"
   },
   {
-    "id": 2,
+    "id": 23,
     "name": "Aniversário",
     "category": "Aniversário",
     "image": "./img/kits/Aniversarios/4.jpg"
   },
   {
-    "id": 2,
+    "id": 24,
     "name": "Aniversário",
     "category": "Aniversário",
     "image": "./img/kits/Aniversarios/5.jpg"
   },
   {
-    "id": 2,
+    "id": 25,
     "name": "Aniversário",
     "category": "Aniversário",
     "image": "./img/kits/Aniversarios/6.jpg"
   },
   {
-    "id": 2,
+    "id": 26,
     "name": "Aniversário",
     "category": "Aniversário",
     "image": "./img/kits/Aniversarios/7.jpg"
   },
   {
-    "id": 2,
+    "id": 27,
     "name": "Aniversário",
     "category": "Aniversário",
     "image": "./img/kits/Aniversarios/8.jpg"
   },
   {
-    "id": 2,
+    "id": 28,
     "name": "Aniversário",
     "category": "Aniversário",
     "image": "./img/kits/Aniversarios/9.jpg"
   },
   {
-    "id": 2,
+    "id": 29,
     "name": "Aniversário",
     "category": "Aniversário",
     "image": "./img/kits/Aniversarios/10.jpg"
   },
   {
-    "id": 2,
+    "id": 30,
     "name": "Aniversário",
     "category": "Aniversário",
     "image": "./img/kits/Aniversarios/11.jpg"
@@ -199,25 +187,45 @@
 
 
   {
-    "id": 2,
+    "id": 31,
+    "name": "Chá de Cozinha",
+    "category": "Chá de Cozinha",
+    "image": "./img/kits/cha de cozinha/1.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Chá de Cozinha",
+    "category": "Chá de Cozinha",
+    "image": "./img/kits/cha de cozinha/2.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Chá de Cozinha",
+    "category": "Chá de Cozinha",
+    "image": "./img/kits/cha de cozinha/3.jpg"
+  },
+
+
+  {
+    "id": 34,
     "name": "Chás",
     "category": "Chá Revelação",
     "image": "./img/kits/chá revelação/1.jpg"
   },
   {
-    "id": 2,
+    "id": 35,
     "name": "Chá Revelação",
     "category": "Chá Revelação",
     "image": "./img/kits/chá revelação/2.jpg"
   },
   {
-    "id": 2,
+    "id": 36,
     "name": "Chá Revelação",
     "category": "Chá Revelação",
     "image": "./img/kits/chá revelação/3.jpg"
   },
   {
-    "id": 2,
+    "id": 37,
     "name": "Chá Revelação",
     "category": "Chá Revelação",
     "image": "./img/kits/chá revelação/4.jpg"
@@ -225,138 +233,117 @@
 
 
   {
-    "id": 2,
+    "id": 38,
     "name": "Chá de Bebe",
     "category": "Chá de Bebe",
     "image": "./img/kits/cha de bebe/1.jpg"
   },
   {
-    "id": 2,
+    "id": 39,
     "name": "Chá de Bebe",
     "category": "Chá de Bebe",
     "image": "./img/kits/cha de bebe/2.jpg"
   },
   {
-    "id": 2,
+    "id": 40,
     "name": "Chá de Bebe",
     "category": "Chá de Bebe",
     "image": "./img/kits/cha de bebe/3.jpg"
   },
   {
-    "id": 2,
+    "id": 41,
     "name": "Chá de Bebe",
     "category": "Chá de Bebe",
     "image": "./img/kits/cha de bebe/4.jpg"
   },
   {
-    "id": 2,
+    "id": 42,
     "name": "Chá de Bebe",
     "category": "Chá de Bebe",
     "image": "./img/kits/cha de bebe/5.jpg"
   },
   {
-    "id": 2,
+    "id": 43,
     "name": "Chá de Bebe",
     "category": "Chá de Bebe",
     "image": "./img/kits/cha de bebe/6.jpg"
   },
   {
-    "id": 2,
+    "id": 44,
     "name": "Chá de Bebe",
     "category": "Chá de Bebe",
     "image": "./img/kits/cha de bebe/7.jpg"
   },
 
 
-
   {
-    "id": 2,
-    "name": "Chá de Cozinha",
-    "category": "Chá de Cozinha",
-    "image": "./img/kits/casamento/1.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Chá de Cozinha",
-    "category": "Chá de Cozinha",
-    "image": "./img/kits/casamento/2.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Chá de Cozinha",
-    "category": "Chá de Cozinha",
-    "image": "./img/kits/casamento/3.jpg"
-  },
-
-
-  {
-    "id": 2,
+    "id": 45,
     "name": "Tematico",
     "category": "Tematico",
     "image": "./img/kits/tematico/1.jpg"
   },
   {
-    "id": 2,
+    "id": 46,
     "name": "Tematico",
     "category": "Tematico",
     "image": "./img/kits/tematico/2.jpg"
   },
   {
-    "id": 2,
+    "id": 47,
     "name": "Tematico",
     "category": "Tematico",
     "image": "./img/kits/tematico/3.jpg"
   },
   {
-    "id": 2,
+    "id": 48,
     "name": "Tematico",
     "category": "Tematico",
     "image": "./img/kits/tematico/4.jpg"
   },
   {
-    "id": 2,
+    "id": 49,
     "name": "Tematico",
     "category": "Tematico",
     "image": "./img/kits/tematico/5.jpg"
   },
   {
-    "id": 2,
+    "id": 50,
     "name": "Tematico",
     "category": "Tematico",
     "image": "./img/kits/tematico/6.jpg"
   },
   {
-    "id": 2,
+    "id": 51,
     "name": "Tematico",
     "category": "Tematico",
     "image": "./img/kits/tematico/7.jpg"
   },
   {
-    "id": 2,
+    "id": 52,
     "name": "Tematico",
     "category": "Tematico",
     "image": "./img/kits/tematico/8.jpg"
   },
   {
-    "id": 2,
+    "id": 53,
     "name": "Tematico",
     "category": "Tematico",
     "image": "./img/kits/tematico/9.jpg"
   },
   {
-    "id": 2,
+    "id": 54,
     "name": "Tematico",
     "category": "Tematico",
     "image": "./img/kits/tematico/10.jpg"
   },
   {
-    "id": 2,
+    "id": 55,
     "name": "Tematico",
     "category": "Tematico",
     "image": "./img/kits/tematico/11.jpg"
   },
   {
-    "id": 2,
+    "id": 56,
     "name": "Tematico",
     "category": "Tematico",
     "image": "./img/kits/tematico/12.jpg"
@@ -364,13 +351,13 @@
 
 
   {
-    "id": 2,
+    "id":57,
     "name": "Casamento",
     "category": "Casamento",
     "image": "./img/kits/casamento/1.jpg"
   },
   {
-    "id": 2,
+    "id": 58,
     "name": "Casamento",
     "category": "Casamento",
     "image": "./img/kits/casamento/2.jpg"
@@ -378,27 +365,27 @@
 
 
   {
-    "id": 2,
+    "id": 59,
     "name": "Bodas",
     "category": "Bodas",
     "image": "./img/kits/bodas/1.jpg"
   },
   {
-    "id": 2,
+    "id": 60,
+    "name": "Bodas",
+    "category": "Bodas",
+    "image": "./img/kits/bodas/2.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Bodas",
+    "category": "Bodas",
+    "image": "./img/kits/bodas/3.jpg"
+  },
+  {
+    "id": 62,
     "name": "Bodas",
     "category": "Bodas",
     "image": "./img/kits/bodas/4.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Bodas",
-    "category": "Bodas",
-    "image": "./img/kits/bodas/5.jpg"
-  },
-  {
-    "id": 2,
-    "name": "Bodas",
-    "category": "Bodas",
-    "image": "./img/kits/bodas/6.jpg"
   }
 ]

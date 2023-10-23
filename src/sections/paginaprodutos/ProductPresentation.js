@@ -18,7 +18,7 @@ function ProductPresentation({ products }) {
   };
 
   return (
-    <div className={styles.productPresentation}>
+<div className={`${styles.productPresentation} container` }>
       <div>
         <CategoryFilter
           categories={categories}

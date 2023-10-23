@@ -1,8 +1,8 @@
 .KitsCaixa {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   padding: 2%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .KitsTexto {
@@ -72,11 +72,13 @@
 }
 
 .KitsImg {
+  display: grid;
   width: 100%;
+  align-items: center;
 }
 
 .KitsImg img {
-  width: 20rem;
+  width: 25rem;
   border-radius: 10px;
   padding-top: 2%;
 }

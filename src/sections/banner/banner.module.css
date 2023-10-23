@@ -2,7 +2,8 @@
   background-image: url('../../../public/img/banner.svg');
   background-size: cover;
   background-attachment: fixed;
-  padding: 9% 10% 10%;
+  background-position: center;
+  padding: 9% 20% 10%;
   margin-top: -80px;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 57% 100%, 50% 93%, 50% 93%, 43% 100%, 0 100%); 
@@ -26,7 +27,22 @@
   font-size: 30px;
 }
 
+@media (max-width: 2200px) {
+  .Banner {
+    padding: 9% 10% 10%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Banner {
+    padding: 15% 10% 10%;
+  }
+}
+
 @media (max-width: 950px) {
+  .Banner {
+    padding: 15% 10% 10%;
+  }
   .Banner h1 {
     font-size: 80px;
   }

@@ -1,14 +1,16 @@
 .productPresentation {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
   gap: 20px;
+  column-gap: 50px;
   margin-bottom: 50px;
 }
 
 .productCard{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit ,minmax(200px, 1fr));
+  justify-items: center;
+  height: fit-content;
   gap: 20px;
 }
 
@@ -51,4 +53,12 @@
 .product h3 {
   font-size: 18px;
   text-align: center;
+}
+
+@media (max-width: 950px) {
+  .productPresentation {
+    gap: 0px;
+    column-gap: 0px;
+
+  }
 }

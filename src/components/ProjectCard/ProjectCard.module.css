@@ -1,6 +1,7 @@
 .SessaoImgs {
   gap: 2%;
   width: min-content;
+  height: min-content;
 }
 
 .SessaoImgsCaixa img {

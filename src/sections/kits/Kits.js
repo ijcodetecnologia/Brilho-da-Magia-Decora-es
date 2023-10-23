@@ -48,11 +48,11 @@ const Kits = () => {
         <div className={styles.KitsImg}>
           <ul>
             <li>
-              <a href="">
-                <img src="./img/4.png" alt="" />
+              <a href="/pageitens">
+                <img src="./img/imgkits.png" alt="" />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="">
                 <img src="./img/3.png" alt="" />
               </a>
@@ -66,7 +66,7 @@ const Kits = () => {
               <a href="">
                 <img src="./img/2.png" alt="" />
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
