@@ -26,7 +26,8 @@ function ProductPresentation({ products }) {
           onChangeCategory={handleCategoryChange}
         />
       </div>
-      <div className={styles.productPresentation}>
+
+      <div className={styles.productCard}>
         {filteredproducts.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}

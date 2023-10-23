@@ -1,12 +1,21 @@
 .productPresentation {
   display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.productCard{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
 .PgMenu {
   flex: 1;
   border-right: 1px solid #ccc;
-  padding-right: 20px;
+  padding-right: 20px;  
 }
 
 .PgMenu h2 {

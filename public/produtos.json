@@ -1,14 +1,404 @@
 [
   {
     "id": 1,
-    "name": "Produto 1",
-    "category": "Categoria A",
-    "image": "./img/kits/1.jpg"
+    "name": "Infantil Feminino",
+    "category": "Infantil Feminino",
+    "image": "./img/kits/infatil feminino/1.jpg"
   },
   {
     "id": 2,
-    "name": "Produto 2",
-    "category": "Categoria B",
-    "image": "./img/kits/2.jpg"
+    "name": "Infantil Feminino",
+    "category": "Infantil Feminino",
+    "image": "./img/kits/infatil feminino/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Infantil Feminino",
+    "category": "Infantil Feminino",
+    "image": "./img/kits/infatil feminino/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Infantil Feminino",
+    "category": "Infantil Feminino",
+    "image": "./img/kits/infatil feminino/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Infantil Feminino",
+    "category": "Infantil Feminino",
+    "image": "./img/kits/infatil feminino/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Infantil Feminino",
+    "category": "Infantil Feminino",
+    "image": "./img/kits/infatil feminino/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Infantil Feminino",
+    "category": "Infantil Feminino",
+    "image": "./img/kits/infatil feminino/7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Infantil Feminino",
+    "category": "Infantil Feminino",
+    "image": "./img/kits/infatil feminino/8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Infantil Feminino",
+    "category": "Infantil Feminino",
+    "image": "./img/kits/infatil feminino/9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Infantil Feminino",
+    "category": "Infantil Feminino",
+    "image": "./img/kits/infatil feminino/10.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Infantil Feminino",
+    "category": "Infantil Feminino",
+    "image": "./img/kits/infatil feminino/11.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Infantil Feminino",
+    "category": "Infantil Feminino",
+    "image": "./img/kits/infatil feminino/12.jpg"
+  },
+
+
+
+  {
+    "id": 13,
+    "name": "Infantil Masculino",
+    "category": "Infantil Masculino",
+    "image": "./img/kits/infantil maculino/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Infantil Masculino",
+    "category": "Infantil Masculino",
+    "image": "./img/kits/infantil maculino/2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Infantil Masculino",
+    "category": "Infantil Masculino",
+    "image": "./img/kits/infantil maculino/3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Infantil Masculino",
+    "category": "Infantil Masculino",
+    "image": "./img/kits/infantil maculino/4.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Infantil Masculino",
+    "category": "Infantil Masculino",
+    "image": "./img/kits/infantil maculino/5.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Infantil Masculino",
+    "category": "Infantil Masculino",
+    "image": "./img/kits/infantil maculino/6.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Infantil Masculino",
+    "category": "Infantil Masculino",
+    "image": "./img/kits/infantil maculino/7.jpg"
+  },
+
+
+  {
+    "id": 2,
+    "name": "Aniversário",
+    "category": "Aniversário",
+    "image": "./img/kits/Aniversarios/01.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aniversário",
+    "category": "Aniversário",
+    "image": "./img/kits/Aniversarios/01.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aniversário",
+    "category": "Aniversário",
+    "image": "./img/kits/Aniversarios/01.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aniversário",
+    "category": "Aniversário",
+    "image": "./img/kits/Aniversarios/2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aniversário",
+    "category": "Aniversário",
+    "image": "./img/kits/Aniversarios/3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aniversário",
+    "category": "Aniversário",
+    "image": "./img/kits/Aniversarios/4.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aniversário",
+    "category": "Aniversário",
+    "image": "./img/kits/Aniversarios/5.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aniversário",
+    "category": "Aniversário",
+    "image": "./img/kits/Aniversarios/6.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aniversário",
+    "category": "Aniversário",
+    "image": "./img/kits/Aniversarios/7.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aniversário",
+    "category": "Aniversário",
+    "image": "./img/kits/Aniversarios/8.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aniversário",
+    "category": "Aniversário",
+    "image": "./img/kits/Aniversarios/9.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aniversário",
+    "category": "Aniversário",
+    "image": "./img/kits/Aniversarios/10.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Aniversário",
+    "category": "Aniversário",
+    "image": "./img/kits/Aniversarios/11.jpg"
+  },
+
+
+  {
+    "id": 2,
+    "name": "Chás",
+    "category": "Chá Revelação",
+    "image": "./img/kits/chá revelação/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chá Revelação",
+    "category": "Chá Revelação",
+    "image": "./img/kits/chá revelação/2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chá Revelação",
+    "category": "Chá Revelação",
+    "image": "./img/kits/chá revelação/3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chá Revelação",
+    "category": "Chá Revelação",
+    "image": "./img/kits/chá revelação/4.jpg"
+  },
+
+
+  {
+    "id": 2,
+    "name": "Chá de Bebe",
+    "category": "Chá de Bebe",
+    "image": "./img/kits/cha de bebe/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chá de Bebe",
+    "category": "Chá de Bebe",
+    "image": "./img/kits/cha de bebe/2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chá de Bebe",
+    "category": "Chá de Bebe",
+    "image": "./img/kits/cha de bebe/3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chá de Bebe",
+    "category": "Chá de Bebe",
+    "image": "./img/kits/cha de bebe/4.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chá de Bebe",
+    "category": "Chá de Bebe",
+    "image": "./img/kits/cha de bebe/5.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chá de Bebe",
+    "category": "Chá de Bebe",
+    "image": "./img/kits/cha de bebe/6.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chá de Bebe",
+    "category": "Chá de Bebe",
+    "image": "./img/kits/cha de bebe/7.jpg"
+  },
+
+
+
+  {
+    "id": 2,
+    "name": "Chá de Cozinha",
+    "category": "Chá de Cozinha",
+    "image": "./img/kits/casamento/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chá de Cozinha",
+    "category": "Chá de Cozinha",
+    "image": "./img/kits/casamento/2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Chá de Cozinha",
+    "category": "Chá de Cozinha",
+    "image": "./img/kits/casamento/3.jpg"
+  },
+
+
+  {
+    "id": 2,
+    "name": "Tematico",
+    "category": "Tematico",
+    "image": "./img/kits/tematico/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tematico",
+    "category": "Tematico",
+    "image": "./img/kits/tematico/2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tematico",
+    "category": "Tematico",
+    "image": "./img/kits/tematico/3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tematico",
+    "category": "Tematico",
+    "image": "./img/kits/tematico/4.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tematico",
+    "category": "Tematico",
+    "image": "./img/kits/tematico/5.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tematico",
+    "category": "Tematico",
+    "image": "./img/kits/tematico/6.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tematico",
+    "category": "Tematico",
+    "image": "./img/kits/tematico/7.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tematico",
+    "category": "Tematico",
+    "image": "./img/kits/tematico/8.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tematico",
+    "category": "Tematico",
+    "image": "./img/kits/tematico/9.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tematico",
+    "category": "Tematico",
+    "image": "./img/kits/tematico/10.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tematico",
+    "category": "Tematico",
+    "image": "./img/kits/tematico/11.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tematico",
+    "category": "Tematico",
+    "image": "./img/kits/tematico/12.jpg"
+  },
+
+
+  {
+    "id": 2,
+    "name": "Casamento",
+    "category": "Casamento",
+    "image": "./img/kits/casamento/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Casamento",
+    "category": "Casamento",
+    "image": "./img/kits/casamento/2.jpg"
+  },
+
+
+  {
+    "id": 2,
+    "name": "Bodas",
+    "category": "Bodas",
+    "image": "./img/kits/bodas/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bodas",
+    "category": "Bodas",
+    "image": "./img/kits/bodas/4.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bodas",
+    "category": "Bodas",
+    "image": "./img/kits/bodas/5.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bodas",
+    "category": "Bodas",
+    "image": "./img/kits/bodas/6.jpg"
   }
 ]
