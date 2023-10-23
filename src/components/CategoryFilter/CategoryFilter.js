@@ -13,7 +13,7 @@ const CategoryFilter = ({ categories, selectedCategory, onChangeCategory }) => {
               className={selectedCategory === '' ? 'active' : ''}
               onClick={() => onChangeCategory('')}
             >
-              Todas as Categorias
+              Todas Kits
             </a>
           </li>
         </ul>
