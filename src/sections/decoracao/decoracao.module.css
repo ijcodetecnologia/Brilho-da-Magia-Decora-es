@@ -80,6 +80,9 @@
   .DecoracaoTexto {
     width: 100%;
   }
+  .DecoracaoTexto p {
+    padding-right: 0%;
+  }
   .DecoracaoImg {
     display: none;
   }

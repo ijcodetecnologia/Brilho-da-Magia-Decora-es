@@ -37,15 +37,10 @@
   background: #EBB1F7;
 }
 
-/* @media (max-width: 1000px) {
-  .Div {
-    padding: 20% 5%;
-  }
-} */
-
 @media (max-width: 600px) {
   .Div {
     padding: 20% 5%;
+    margin-bottom: 0%;
   }
   .Div h2 {
     font-size: 3rem;

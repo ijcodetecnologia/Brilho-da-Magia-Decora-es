@@ -6,7 +6,7 @@ const CategoryFilter = ({ categories, selectedCategory, onChangeCategory }) => {
     <div className={styles.MenuLateralCaixa}>
       <div className={styles.MenuLateral}>
         <p>Filtrar por Categoria:</p>
-        <ul className={styles.MenuLateral}>
+        {/* <ul className={styles.MenuLateral}>
           <li>
             <a
               href="#"
@@ -16,7 +16,7 @@ const CategoryFilter = ({ categories, selectedCategory, onChangeCategory }) => {
               Todas Kits
             </a>
           </li>
-        </ul>
+        </ul> */}
         {categories.map((category, index) => (
           <ul className={styles.MenuLateral} key={index}>
             <li>
