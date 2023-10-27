@@ -1,12 +1,10 @@
-'use client';
-import React, { useState } from 'react';
-import ProductPresentation from '../../sections/paginaprodutos/ProductPresentation';
-import productsData from '../../../public/produtos.json';
-import styles from '@/app/pageitens/PageItens.module.css'
+"use client";
+import React from "react";
+import ProductPresentation from "../../sections/paginaprodutos/ProductPresentation";
+import productsData from "../../../public/produtos.json";
+import styles from "@/app/pageitens/PageItens.module.css";
 
 function Products() {
-  const [selectedCategory, setSelectedCategory] = useState('');
-
   return (
     <div>
       <div className={styles.Pagekitsf}>

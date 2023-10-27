@@ -1,33 +1,33 @@
-import React from 'react';
-import styles from './CategoryFilter.module.css';
+import React from "react";
+import styles from "./CategoryFilter.module.css";
 
 const CategoryFilter = ({ categories, selectedCategory, onChangeCategory }) => {
   return (
     <div className={styles.MenuLateralCaixa}>
       <div className={styles.MenuLateral}>
         <p>Filtrar por Categoria:</p>
-        {/* <ul className={styles.MenuLateral}>
+        <ul className={styles.MenuLateral}>
           <li>
-            <a
-              href="#"
-              className={selectedCategory === '' ? 'active' : ''}
-              onClick={() => onChangeCategory('')}
+            <button
+              type="button"
+              className={selectedCategory === "" ? "active" : ""}
+              onClick={() => onChangeCategory("")}
             >
               Todas Kits
-            </a>
+            </button>
           </li>
-        </ul> */}
+        </ul>
         {categories.map((category, index) => (
           <ul className={styles.MenuLateral} key={index}>
             <li>
-              <a
+              <button
+                type="button"
                 key={category}
-                href="#"
-                className={selectedCategory === category ? 'active' : ''}
+                className={selectedCategory === category ? "active" : ""}
                 onClick={() => onChangeCategory(category)}
               >
                 {category}
-              </a>
+              </button>
             </li>
           </ul>
         ))}

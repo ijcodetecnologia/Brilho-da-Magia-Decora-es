@@ -30,11 +30,14 @@
   transition: 0.4s;
 }
 
-.MenuLateral a {
+.MenuLateral button {
+  border: none;
+  background-color: transparent;
   font-size: 1.1rem;
   color: #8DB0D2;
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
+  cursor: pointer;
 }
 
 
