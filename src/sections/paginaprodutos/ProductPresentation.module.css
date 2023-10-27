@@ -6,12 +6,9 @@
   margin-bottom: 50px;
 }
 
-.productCard{
-  display: grid;
-  grid-template-columns: repeat(auto-fit ,minmax(200px, 1fr));
-  justify-items: center;
-  height: fit-content;
-  gap: 20px;
+.pagination{
+  grid-area: 2/2;
+  justify-self: center;
 }
 
 .PgMenu {

@@ -1,11 +1,13 @@
-'use client';
-import React, { useState } from 'react';
-import styles from './ProductPresentation.module.css';
-import CategoryFilter from '@/components/CategoryFilter/CategoryFilter';
-import ProjectCard from '@/components/ProjectCard/ProjectCard';
+"use client";
+import React, { useState, useEffect } from "react";
+import styles from "./ProductPresentation.module.css";
+import CategoryFilter from "@/components/CategoryFilter/CategoryFilter";
+import ProductsList from "../../components/Pagination/productList/ProductsList";
+import PaginationFunction from "../../components/Pagination/PaginationFunction";
 
 function ProductPresentation({ products }) {
-  const [selectedCategory, setSelectedCategory] = useState('');
+  const [paginaAtual, setPaginaAtual] = useState(1);
+  const [selectedCategory, setSelectedCategory] = useState("");
 
   const categories = [...new Set(products.map((project) => project.category))];
 
@@ -17,8 +19,18 @@ function ProductPresentation({ products }) {
     setSelectedCategory(category);
   };
 
+  // Paginação
+  const handlePageChange = (novaPagina) => {
+    setPaginaAtual(novaPagina);
+  };
+
+  const itensPorPagina = 10; // Quantidade de itens por página
+  const startIndex = (paginaAtual - 1) * itensPorPagina;
+  const endIndex = startIndex + itensPorPagina;
+  const produtosExibidos = filteredproducts.slice(startIndex, endIndex);
+
   return (
-<div className={`${styles.productPresentation} container` }>
+    <div className={`${styles.productPresentation} container`}>
       <div>
         <CategoryFilter
           categories={categories}
@@ -26,11 +38,14 @@ function ProductPresentation({ products }) {
           onChangeCategory={handleCategoryChange}
         />
       </div>
-
-      <div className={styles.productCard}>
-        {filteredproducts.map((project, index) => (
-          <ProjectCard key={index} project={project} />
-        ))}
+      <div>
+        <ProductsList products={produtosExibidos} />
+      </div>
+      <div className={styles.pagination}>
+        <PaginationFunction
+          totalPages={Math.ceil(filteredproducts.length / itensPorPagina)}
+          onPageChange={handlePageChange}
+        />
       </div>
     </div>
   );
