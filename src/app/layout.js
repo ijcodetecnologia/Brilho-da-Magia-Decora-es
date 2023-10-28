@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="./img/favicon.ico" type="image/x-icon"></link>
         <link
           rel="shortcut icon"
-          href="public\img\logo.svg"
+          href="./img/logo.svg"
           type="image/x-icon"
         ></link>
         <link rel="stylesheet" type="text/css" href="styles.css"></link>
