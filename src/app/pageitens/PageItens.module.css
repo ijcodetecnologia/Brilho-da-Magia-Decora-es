@@ -53,11 +53,12 @@
 }
 
 @media (max-width: 780px) {
-  .PageKits {
+  .Pagekitsf {
+    margin-bottom: 20px;
     padding-top: 15%;
     padding-bottom: 10%;
-;
   }
+  
   .PageKits p {
     padding: 0px 50px;
   }

@@ -1,6 +1,6 @@
 .MenuLateral p {
   font-size: 1.5rem;
-  color: #EBB1F7;
+  color: #d2c9d0;
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
   padding: 30px 30px 5px 30px;
@@ -43,6 +43,31 @@
 .MenuLateral .active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+  .MenuLateralCaixa {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0px 20px 20px;
+  }
+  .MenuLateral {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+  }
+  .MenuLateral ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .MenuLateral li {
+  padding: 5px 15px;
+}
 }
 
 

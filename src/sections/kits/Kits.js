@@ -43,7 +43,7 @@ const Kits = () => {
               </div>
 
               <button>
-                <a href="">Ver todos</a>
+                <a href="/pageitens">Ver todos</a>
               </button>
             </div>
           </div>

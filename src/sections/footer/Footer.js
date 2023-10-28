@@ -23,17 +23,17 @@ const Footer = () => {
           <h3>Redes Sociais:</h3>
           <ul className={styles.FooterIcons}>
             <li>
-              <a href="https://www.facebook.com/profile.php?id=100091151290585">
+              <a href="https://www.facebook.com/profile.php?id=100091151290585" target="_blanc">
                 <img src="./icons/face.svg" />
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/brilhodamagiadecoracoes/">
+              <a href="https://www.instagram.com/brilhodamagiadecoracoes/" target="_blanc">
                 <img src="./icons/insta.svg" />
               </a>
             </li>
             <li>
-              <a href="https://api.whatsapp.com/send?phone=5511918200810">
+              <a href="https://api.whatsapp.com/send?phone=5511918200810" target="_blanc">
                 <img src="./icons/whats.svg" />
               </a>
             </li>

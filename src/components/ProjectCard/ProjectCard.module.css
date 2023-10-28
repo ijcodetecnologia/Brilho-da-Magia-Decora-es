@@ -5,9 +5,35 @@
 }
 
 .SessaoImgsCaixa img {
-  width: 200px;
-  height: 280px;
+  width: 300px;
+  height: 350px;
   margin-bottom: 2%;
   border-radius: 10px;
 }
+
+.productCard{
+  display: grid;
+  grid-template-columns: repeat(auto-fit ,minmax(200px, 1fr));
+  justify-items: center;
+  height: fit-content;
+  gap: 20px;
+}
+
+@media (max-width: 920px) {
+  .SessaoImgsCaixa img {
+    width: 200px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 420px) {
+  .SessaoImgsCaixa img {
+    width: 300px;
+    height: 350px;
+    margin-bottom: 2%;
+    border-radius: 10px;
+  }
+}
+
+
 

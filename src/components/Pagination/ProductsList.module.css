@@ -1,7 +1,17 @@
 .productCard{
   display: grid;
-  grid-template-columns: repeat(auto-fit ,minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit ,minmax(300px, 1fr));
   justify-items: center;
   height: fit-content;
   gap: 20px;
+}
+
+@media (max-width: 920px) {
+  .productCard{
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(200px, 1fr));
+    justify-items: center;
+    height: fit-content;
+    gap: 5px;
+  }
 }
