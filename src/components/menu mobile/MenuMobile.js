@@ -1,7 +1,7 @@
-"use client";
-import { Link } from "react-scroll";
-import React, { useState, useEffect, useRef } from "react";
-import styles from "./MenuMobile.module.css";
+'use client';
+import React, { useState, useEffect, useRef } from 'react';
+import Link from 'next/link';
+import styles from './MenuMobile.module.css';
 
 const MenuMobile = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -18,10 +18,10 @@ const MenuMobile = () => {
       }
     };
 
-    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener('mousedown', handleClickOutside);
 
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutside);
     };
   }, []);
 
@@ -35,27 +35,14 @@ const MenuMobile = () => {
         }`}
       >
         <ul>
-          {/* <li className={styles.LiNav}>
-          <Link
-            to="home"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-            href=""
-          >
-            Home
-          </Link>
-        </li> */}
-
           <li>
             <Link
-              to="kits"
+              to=""
               spy={true}
               smooth={true}
               offset={5}
               duration={600}
-              href=""
+              href="/pageitens"
             >
               Kits
             </Link>

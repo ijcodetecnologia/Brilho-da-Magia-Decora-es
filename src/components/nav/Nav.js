@@ -21,19 +21,6 @@ const Nav = () => {
           </Link>
         </li>
 
-        {/* <li>
-          <Link
-            to="kits"
-            spy={true}
-            smooth={true}
-            offset={5}
-            duration={600}
-            href=""
-          >
-            Kits
-          </Link>
-        </li> */}
-
         <li>
           <Link
             to=""
@@ -47,7 +34,7 @@ const Nav = () => {
           </Link>
         </li>
 
-        {/* <li>
+        <li>
           <LinkScroll
             to="endereco"
             spy={true}
@@ -58,7 +45,7 @@ const Nav = () => {
           >
             Endereço
           </LinkScroll>
-        </li> */}
+        </li>
       </ul>
     </div>
   );
