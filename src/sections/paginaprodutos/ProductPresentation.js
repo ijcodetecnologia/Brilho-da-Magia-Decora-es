@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from "react";
 import styles from "./ProductPresentation.module.css";
 import CategoryFilter from "@/components/CategoryFilter/CategoryFilter";
-import ProductsList from "../../components/Pagination/productList/ProductsList";
-import PaginationFunction from "../../components/Pagination/PaginationFunction";
+import ProductsList from "../../components/Pagination/ProductsList";
+import { Pagination } from "@mui/material";
 
 function ProductPresentation({ products }) {
   const [paginaAtual, setPaginaAtual] = useState(1);
@@ -17,14 +17,16 @@ function ProductPresentation({ products }) {
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
+    setPaginaAtual(1);
   };
 
   // Paginação
-  const handlePageChange = (novaPagina) => {
-    setPaginaAtual(novaPagina);
+
+  const handlePageChange = (event, value) => {
+    setPaginaAtual(value);
   };
 
-  const itensPorPagina = 10; // Quantidade de itens por página
+  const itensPorPagina = 12; // Quantidade de itens por página
   const startIndex = (paginaAtual - 1) * itensPorPagina;
   const endIndex = startIndex + itensPorPagina;
   const produtosExibidos = filteredproducts.slice(startIndex, endIndex);
@@ -42,9 +44,11 @@ function ProductPresentation({ products }) {
         <ProductsList products={produtosExibidos} />
       </div>
       <div className={styles.pagination}>
-        <PaginationFunction
-          totalPages={Math.ceil(filteredproducts.length / itensPorPagina)}
-          onPageChange={handlePageChange}
+        <Pagination
+          count={Math.ceil(filteredproducts.length / itensPorPagina)}
+          onChange={handlePageChange}
+          page={paginaAtual}
+          color="primary"
         />
       </div>
     </div>
