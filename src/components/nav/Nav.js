@@ -33,19 +33,6 @@ const Nav = () => {
             Kits
           </Link>
         </li>
-
-        <li>
-          <LinkScroll
-            to="endereco"
-            spy={true}
-            smooth={true}
-            offset={5}
-            duration={600}
-            href=""
-          >
-            Endereço
-          </LinkScroll>
-        </li>
       </ul>
     </div>
   );

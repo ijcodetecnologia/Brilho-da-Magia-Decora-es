@@ -35,6 +35,18 @@ const MenuMobile = () => {
         }`}
       >
         <ul>
+          <li className={styles.LiNav}>
+            <Link
+              to=""
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+              href="/"
+            >
+              Home
+            </Link>
+          </li>
           <li>
             <Link
               to=""
@@ -45,19 +57,6 @@ const MenuMobile = () => {
               href="/pageitens"
             >
               Kits
-            </Link>
-          </li>
-
-          <li>
-            <Link
-              to="endereco"
-              spy={true}
-              smooth={true}
-              offset={5}
-              duration={600}
-              href=""
-            >
-              Endereço
             </Link>
           </li>
         </ul>
