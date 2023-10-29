@@ -11,19 +11,11 @@
   border-radius: 10px;
 }
 
-.productCard{
-  display: grid;
-  grid-template-columns: repeat(auto-fit ,minmax(200px, 1fr));
-  justify-items: center;
-  height: fit-content;
-  gap: 20px;
-}
-
 @media (max-width: 920px) {
-  .SessaoImgsCaixa img {
+  /* .SessaoImgsCaixa img {
     width: 200px;
     height: 250px;
-  }
+  } */
 }
 
 @media (min-width: 420px) {
