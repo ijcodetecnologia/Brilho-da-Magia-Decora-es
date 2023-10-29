@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import styles from './nav.module.css';
-import { Link as LinkScroll } from 'react-scroll';
+// import { Link as LinkScroll } from 'react-scroll';
 import Link from 'next/link';
 
 const Nav = () => {

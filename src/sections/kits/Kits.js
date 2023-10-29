@@ -2,6 +2,7 @@
 import React from 'react';
 import styles from '@/sections/kits/Kits.module.css';
 import Fade from 'react-reveal/Fade';
+import Link from 'next/link';
 
 const Kits = () => {
   return (
@@ -51,9 +52,16 @@ const Kits = () => {
 
         <Fade right>
           <div className={styles.KitsImg}>
-            <a href="../../app/pageitens">
-              <img src="./img/imgkits.png" alt="" />
-            </a>
+          <Link
+            to=""
+            spy={true}
+            smooth={true}
+            offset={5}
+            duration={600}
+            href="/pageitens"
+          >
+            <img src="./img/imgkits.png" alt="" />
+          </Link>
           </div>
         </Fade>
       </div>

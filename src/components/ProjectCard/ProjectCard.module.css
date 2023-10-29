@@ -11,13 +11,6 @@
   border-radius: 10px;
 }
 
-@media (max-width: 920px) {
-  /* .SessaoImgsCaixa img {
-    width: 200px;
-    height: 250px;
-  } */
-}
-
 @media (min-width: 420px) {
   .SessaoImgsCaixa img {
     width: 300px;
