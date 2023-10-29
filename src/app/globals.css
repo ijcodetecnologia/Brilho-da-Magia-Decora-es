@@ -1,6 +1,4 @@
-body {
-  overflow-x: hidden;
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +14,7 @@ body {
 }
 
 html {
+  overflow-x: hidden;
   font-family: 'Nunito', sans-serif;
 }
 

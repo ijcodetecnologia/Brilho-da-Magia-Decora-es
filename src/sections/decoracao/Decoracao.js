@@ -7,13 +7,13 @@ import Button from '@/components/button/Button';
 const Decoracao = () => {
   return (
     <div className={`${styles.Decoracao} container`}>
-      <Fade left>
+      <Fade bottom>
         <div className={styles.DecoracaoImg}>
           <img src="./img/img1.webp" alt="Imagem de decoração de unicornio" />
         </div>
       </Fade>
 
-      <Fade right>
+      <Fade bottom>
         <div className={styles.DecoracaoTexto}>
           <span>Magia-</span>
           <h2>Nossa Decoração</h2>
