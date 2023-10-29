@@ -76,6 +76,7 @@
 @media (max-width: 750px) {
   .Decoracao {
     display: grid;
+    margin-bottom: 50px;
   }
   .DecoracaoTexto {
     width: 100%;

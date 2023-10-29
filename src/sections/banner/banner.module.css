@@ -51,6 +51,7 @@
 @media (max-width: 700px) {
   .Banner {
     padding: 15% 15% 15% 15%;
+    margin-bottom: 20px;
   }
   .Banner h1 {
     font-size: 60px;

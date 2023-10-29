@@ -51,7 +51,7 @@ const Kits = () => {
 
         <Fade right>
           <div className={styles.KitsImg}>
-            <a href="/pageitens">
+            <a href="../../app/pageitens">
               <img src="./img/imgkits.png" alt="" />
             </a>
           </div>
