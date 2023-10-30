@@ -16,6 +16,7 @@ const Footer = () => {
         <div className={styles.FooterCaixa}>
           <h3>Contato:</h3>
           <p>Fernanda: (11) 97156-4686</p>
+          <p>Tatiane: (11) 91820-0810 </p>
         </div>
 
         <div className={styles.FooterCaixa}>
