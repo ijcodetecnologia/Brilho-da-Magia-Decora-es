@@ -44,7 +44,16 @@ const Kits = () => {
               </div>
 
               <button>
-                <a href="/pageitens">Ver todos</a>
+                <Link
+                  to=""
+                  spy={true}
+                  smooth={true}
+                  offset={5}
+                  duration={600}
+                  href="/pageitens"
+                >
+                  Ver Todos
+                </Link>
               </button>
             </div>
           </div>
@@ -52,16 +61,16 @@ const Kits = () => {
 
         <Fade right>
           <div className={styles.KitsImg}>
-          <Link
-            to=""
-            spy={true}
-            smooth={true}
-            offset={5}
-            duration={600}
-            href="/pageitens"
-          >
-            <img src="./img/imgkits.png" alt="" />
-          </Link>
+            <Link
+              to=""
+              spy={true}
+              smooth={true}
+              offset={5}
+              duration={600}
+              href="/pageitens"
+            >
+              <img src="./img/imgkits.png" alt="" />
+            </Link>
           </div>
         </Fade>
       </div>
