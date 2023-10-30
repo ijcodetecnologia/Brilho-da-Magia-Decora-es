@@ -30,7 +30,7 @@ const Div = () => {
           </div>
           <div>
             <a
-              href="https://api.whatsapp.com/send?phone=5511918200810"
+              href="https://api.whatsapp.com/send?phone=5511971564686"
               target="blank"
             >
               <img src="./icons/whats.svg" alt="" />

@@ -4,17 +4,10 @@
   height: min-content;
 }
 
-.SessaoImgsCaixa img {
-  width: 300px;
-  height: 350px;
-  margin-bottom: 2%;
-  border-radius: 10px;
-}
-
-@media (min-width: 420px) {
+@media (min-width: 0px) {
   .SessaoImgsCaixa img {
     width: 300px;
-    height: 350px;
+    height: 380px;
     margin-bottom: 2%;
     border-radius: 10px;
   }

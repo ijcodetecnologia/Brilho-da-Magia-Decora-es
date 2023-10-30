@@ -39,7 +39,7 @@
 }
 
 .KitsA a {
-  padding: 2.5%;
+  padding: 3%;
   display: flex;
   background: #8DB0D2;
   border-radius: 50%;
@@ -52,7 +52,7 @@
 }
 
 .KitsTexto button {
-  width: 30%;
+  width: 80%;
   padding: 6px 10px;
   border: none;
   border-radius: 25px 0px;

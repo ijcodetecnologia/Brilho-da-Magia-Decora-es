@@ -16,7 +16,6 @@ const Footer = () => {
         <div className={styles.FooterCaixa}>
           <h3>Contato:</h3>
           <p>Fernanda: (11) 97156-4686</p>
-          <p>Tatiane: (11) 91820-0810</p>
         </div>
 
         <div className={styles.FooterCaixa}>
@@ -33,7 +32,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="https://api.whatsapp.com/send?phone=5511918200810" target="_blanc">
+              <a href="https://api.whatsapp.com/send?phone=5511971564686" target="_blanc">
                 <img src="./icons/whats.svg" />
               </a>
             </li>

@@ -26,7 +26,7 @@ const Kits = () => {
             </div>
 
             <div className={styles.KitsTexto2}>
-              <span>Tatiane: (11) 91820-0810 - Fernanda: (11) 97156-4686</span>
+              <span>Fernanda: (11) 97156-4686</span>
 
               <div className={styles.KitsA}>
                 <a
