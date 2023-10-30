@@ -8,9 +8,16 @@ const Header = () => {
   return (
     <div className={`${styles.Header} container`} id="header">
       <div className={styles.ImgHeader}>
-        <a href="/">
-          <img src="./img/logo.svg" alt="logotipo" />
-        </a>
+        <Link
+            to=""
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            href="/"
+          >
+            <img src="./img/logo.svg" alt="logotipo" />
+          </Link>
       </div>
 
       <div className={styles.NavHeader}>
