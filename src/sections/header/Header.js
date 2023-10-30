@@ -3,6 +3,7 @@ import styles from './header.module.css';
 import Nav from '@/components/nav/Nav';
 import Button from '@/components/button/Button';
 import MenuMobile from '@/components/menu mobile/MenuMobile';
+import Link from 'next/link';
 
 const Header = () => {
   return (
