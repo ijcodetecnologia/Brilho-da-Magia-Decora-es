@@ -45,7 +45,7 @@ const Footer = () => {
         <p>
           Copyright© - Todos os direiros reservados - Desenvolvido por{" "}
           <span></span>{" "}
-          <a href="https://ijcodetecnologia.github.io/IJCode/"> IJCode</a>
+          <a href="https://ijcode.com.br/"> IJCode</a>
         </p>
       </div>
     </div>
